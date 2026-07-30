@@ -1,0 +1,9 @@
+node_modules/
+.env
+submitted_reports/
+automation/google-cloud-key.json
+*.mp3
+*.flac
+error_screenshot_*.png
+.vercel/
+fda-automation-backend/automation/fdaAutomator.json
