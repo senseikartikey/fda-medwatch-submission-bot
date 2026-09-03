@@ -1,7 +1,7 @@
 # FDA Automation Backend
 
 Node/Express service that takes a structured incident report from the
-[UrRecalls](https://github.com/senseikartikey/UrRecalls-app-personal) mobile app
+[UrRecalls](https://github.com/senseikartikey/urrecalls-mobile-app) mobile app
 and **files it on the FDA MedWatch consumer-reporting site automatically**, using
 a headless browser.
 
@@ -15,7 +15,7 @@ a headless browser.
   (`automation/fdaAutomator.js`), filling every page from the payload.
 - Handles the form's reCAPTCHA by solving the **audio challenge** with
   **Google Cloud Speech-to-Text** (see the
-  [`automation`](https://github.com/senseikartikey/automation) prototype).
+  [`automation`](https://github.com/senseikartikey/recaptcha-audio-solver) prototype).
 - Ships a reporting side-tool: `generate_dashboard.py` builds an interactive
   Plotly HTML dashboard (`report_dashboard_v2.html`) from the saved reports, and
   `generate_sample_data.py` fabricates sample submissions for testing it.
